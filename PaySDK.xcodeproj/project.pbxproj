@@ -13,26 +13,8 @@
 		A05147A81E0BAB4100DD0D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05147A61E0BAB4100DD0D74 /* Main.storyboard */; };
 		A05147AA1E0BAB4100DD0D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05147A91E0BAB4100DD0D74 /* Assets.xcassets */; };
 		A05147AD1E0BAB4100DD0D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05147AB1E0BAB4100DD0D74 /* LaunchScreen.storyboard */; };
-		A05147B81E0BAB4100DD0D74 /* PaySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05147B71E0BAB4100DD0D74 /* PaySDKTests.m */; };
-		A05147C31E0BAB4100DD0D74 /* PaySDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05147C21E0BAB4100DD0D74 /* PaySDKUITests.m */; };
+		A05147DB1E0BADAE00DD0D74 /* libZITOPayCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A05147DA1E0BADAE00DD0D74 /* libZITOPayCore.a */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A05147B41E0BAB4100DD0D74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A05147921E0BAB4100DD0D74 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A05147991E0BAB4100DD0D74;
-			remoteInfo = PaySDK;
-		};
-		A05147BF1E0BAB4100DD0D74 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A05147921E0BAB4100DD0D74 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A05147991E0BAB4100DD0D74;
-			remoteInfo = PaySDK;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		A051479A1E0BAB4100DD0D74 /* PaySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,12 +27,13 @@
 		A05147A91E0BAB4100DD0D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A05147AC1E0BAB4100DD0D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A05147AE1E0BAB4100DD0D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A05147B31E0BAB4100DD0D74 /* PaySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05147B71E0BAB4100DD0D74 /* PaySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKTests.m; sourceTree = "<group>"; };
 		A05147B91E0BAB4100DD0D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A05147BE1E0BAB4100DD0D74 /* PaySDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A05147C21E0BAB4100DD0D74 /* PaySDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKUITests.m; sourceTree = "<group>"; };
 		A05147C41E0BAB4100DD0D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05147D71E0BADAE00DD0D74 /* ZITOPay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZITOPay.h; sourceTree = "<group>"; };
+		A05147D81E0BADAE00DD0D74 /* ZITOPayObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZITOPayObjects.h; sourceTree = "<group>"; };
+		A05147DA1E0BADAE00DD0D74 /* libZITOPayCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZITOPayCore.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,20 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A05147B01E0BAB4100DD0D74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A05147BB1E0BAB4100DD0D74 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				A05147DB1E0BADAE00DD0D74 /* libZITOPayCore.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				A051479A1E0BAB4100DD0D74 /* PaySDK.app */,
-				A05147B31E0BAB4100DD0D74 /* PaySDKTests.xctest */,
-				A05147BE1E0BAB4100DD0D74 /* PaySDKUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +85,7 @@
 		A051479D1E0BAB4100DD0D74 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A05147D01E0BABC700DD0D74 /* Framework */,
 				A051479E1E0BAB4100DD0D74 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +109,40 @@
 			path = PaySDKUITests;
 			sourceTree = "<group>";
 		};
+		A05147D01E0BABC700DD0D74 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				A05147D51E0BADAE00DD0D74 /* ZITOPAYSDK */,
+			);
+			path = Framework;
+			sourceTree = "<group>";
+		};
+		A05147D51E0BADAE00DD0D74 /* ZITOPAYSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A05147D61E0BADAE00DD0D74 /* include */,
+				A05147D91E0BADAE00DD0D74 /* libs */,
+			);
+			path = ZITOPAYSDK;
+			sourceTree = "<group>";
+		};
+		A05147D61E0BADAE00DD0D74 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A05147D71E0BADAE00DD0D74 /* ZITOPay.h */,
+				A05147D81E0BADAE00DD0D74 /* ZITOPayObjects.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A05147D91E0BADAE00DD0D74 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				A05147DA1E0BADAE00DD0D74 /* libZITOPayCore.a */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,42 +163,6 @@
 			productReference = A051479A1E0BAB4100DD0D74 /* PaySDK.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A05147B21E0BAB4100DD0D74 /* PaySDKTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A05147CA1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKTests" */;
-			buildPhases = (
-				A05147AF1E0BAB4100DD0D74 /* Sources */,
-				A05147B01E0BAB4100DD0D74 /* Frameworks */,
-				A05147B11E0BAB4100DD0D74 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A05147B51E0BAB4100DD0D74 /* PBXTargetDependency */,
-			);
-			name = PaySDKTests;
-			productName = PaySDKTests;
-			productReference = A05147B31E0BAB4100DD0D74 /* PaySDKTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A05147BD1E0BAB4100DD0D74 /* PaySDKUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A05147CD1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */;
-			buildPhases = (
-				A05147BA1E0BAB4100DD0D74 /* Sources */,
-				A05147BB1E0BAB4100DD0D74 /* Frameworks */,
-				A05147BC1E0BAB4100DD0D74 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A05147C01E0BAB4100DD0D74 /* PBXTargetDependency */,
-			);
-			name = PaySDKUITests;
-			productName = PaySDKUITests;
-			productReference = A05147BE1E0BAB4100DD0D74 /* PaySDKUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -209,18 +176,6 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = G4GPP4QM86;
 						ProvisioningStyle = Automatic;
-					};
-					A05147B21E0BAB4100DD0D74 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = G4GPP4QM86;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A05147991E0BAB4100DD0D74;
-					};
-					A05147BD1E0BAB4100DD0D74 = {
-						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = G4GPP4QM86;
-						ProvisioningStyle = Automatic;
-						TestTargetID = A05147991E0BAB4100DD0D74;
 					};
 				};
 			};
@@ -238,8 +193,6 @@
 			projectRoot = "";
 			targets = (
 				A05147991E0BAB4100DD0D74 /* PaySDK */,
-				A05147B21E0BAB4100DD0D74 /* PaySDKTests */,
-				A05147BD1E0BAB4100DD0D74 /* PaySDKUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,20 +205,6 @@
 				A05147AD1E0BAB4100DD0D74 /* LaunchScreen.storyboard in Resources */,
 				A05147AA1E0BAB4100DD0D74 /* Assets.xcassets in Resources */,
 				A05147A81E0BAB4100DD0D74 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A05147B11E0BAB4100DD0D74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A05147BC1E0BAB4100DD0D74 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,36 +221,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A05147AF1E0BAB4100DD0D74 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A05147B81E0BAB4100DD0D74 /* PaySDKTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A05147BA1E0BAB4100DD0D74 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A05147C31E0BAB4100DD0D74 /* PaySDKUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		A05147B51E0BAB4100DD0D74 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A05147991E0BAB4100DD0D74 /* PaySDK */;
-			targetProxy = A05147B41E0BAB4100DD0D74 /* PBXContainerItemProxy */;
-		};
-		A05147C01E0BAB4100DD0D74 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A05147991E0BAB4100DD0D74 /* PaySDK */;
-			targetProxy = A05147BF1E0BAB4100DD0D74 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		A05147A61E0BAB4100DD0D74 /* Main.storyboard */ = {
@@ -373,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,7 +325,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -430,6 +340,12 @@
 				DEVELOPMENT_TEAM = G4GPP4QM86;
 				INFOPLIST_FILE = PaySDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaySDK/Framework",
+					"$(PROJECT_DIR)/PaySDK/Framework/ZITOPAYSDK/libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -442,58 +358,14 @@
 				DEVELOPMENT_TEAM = G4GPP4QM86;
 				INFOPLIST_FILE = PaySDK/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PaySDK/Framework",
+					"$(PROJECT_DIR)/PaySDK/Framework/ZITOPAYSDK/libs",
+				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDK;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		A05147CB1E0BAB4100DD0D74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = G4GPP4QM86;
-				INFOPLIST_FILE = PaySDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
-			};
-			name = Debug;
-		};
-		A05147CC1E0BAB4100DD0D74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = G4GPP4QM86;
-				INFOPLIST_FILE = PaySDKTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
-			};
-			name = Release;
-		};
-		A05147CE1E0BAB4100DD0D74 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = G4GPP4QM86;
-				INFOPLIST_FILE = PaySDKUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PaySDK;
-			};
-			name = Debug;
-		};
-		A05147CF1E0BAB4100DD0D74 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEVELOPMENT_TEAM = G4GPP4QM86;
-				INFOPLIST_FILE = PaySDKUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = PaySDK;
 			};
 			name = Release;
 		};
@@ -514,22 +386,6 @@
 			buildConfigurations = (
 				A05147C81E0BAB4100DD0D74 /* Debug */,
 				A05147C91E0BAB4100DD0D74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		A05147CA1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A05147CB1E0BAB4100DD0D74 /* Debug */,
-				A05147CC1E0BAB4100DD0D74 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		A05147CD1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A05147CE1E0BAB4100DD0D74 /* Debug */,
-				A05147CF1E0BAB4100DD0D74 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

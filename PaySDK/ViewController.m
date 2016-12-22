@@ -7,8 +7,8 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "ZITOpay.h"
+@interface ViewController ()<ZITOPayDelegate>
 
 @end
 
@@ -17,9 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
 }
 
-
+- (void)viewWillAppear:(BOOL)animated
+{
+    [ZITOPay setZITOPayDelegate:self];
+}
+- (void)onZITOPayResp:(ZITOBaseResp *)resp
+{
+    
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
