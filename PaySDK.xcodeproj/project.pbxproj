@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A051479F1E0BAB4100DD0D74 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A051479E1E0BAB4100DD0D74 /* main.m */; };
+		A05147A21E0BAB4100DD0D74 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A05147A11E0BAB4100DD0D74 /* AppDelegate.m */; };
+		A05147A51E0BAB4100DD0D74 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A05147A41E0BAB4100DD0D74 /* ViewController.m */; };
+		A05147A81E0BAB4100DD0D74 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05147A61E0BAB4100DD0D74 /* Main.storyboard */; };
+		A05147AA1E0BAB4100DD0D74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A05147A91E0BAB4100DD0D74 /* Assets.xcassets */; };
+		A05147AD1E0BAB4100DD0D74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A05147AB1E0BAB4100DD0D74 /* LaunchScreen.storyboard */; };
+		A05147B81E0BAB4100DD0D74 /* PaySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05147B71E0BAB4100DD0D74 /* PaySDKTests.m */; };
+		A05147C31E0BAB4100DD0D74 /* PaySDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A05147C21E0BAB4100DD0D74 /* PaySDKUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A05147B41E0BAB4100DD0D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05147921E0BAB4100DD0D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05147991E0BAB4100DD0D74;
+			remoteInfo = PaySDK;
+		};
+		A05147BF1E0BAB4100DD0D74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A05147921E0BAB4100DD0D74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A05147991E0BAB4100DD0D74;
+			remoteInfo = PaySDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A051479A1E0BAB4100DD0D74 /* PaySDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaySDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A051479E1E0BAB4100DD0D74 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A05147A01E0BAB4100DD0D74 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A05147A11E0BAB4100DD0D74 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A05147A31E0BAB4100DD0D74 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A05147A41E0BAB4100DD0D74 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A05147A71E0BAB4100DD0D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A05147A91E0BAB4100DD0D74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A05147AC1E0BAB4100DD0D74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A05147AE1E0BAB4100DD0D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05147B31E0BAB4100DD0D74 /* PaySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05147B71E0BAB4100DD0D74 /* PaySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKTests.m; sourceTree = "<group>"; };
+		A05147B91E0BAB4100DD0D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A05147BE1E0BAB4100DD0D74 /* PaySDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaySDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A05147C21E0BAB4100DD0D74 /* PaySDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaySDKUITests.m; sourceTree = "<group>"; };
+		A05147C41E0BAB4100DD0D74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A05147971E0BAB4100DD0D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05147B01E0BAB4100DD0D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05147BB1E0BAB4100DD0D74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A05147911E0BAB4100DD0D74 = {
+			isa = PBXGroup;
+			children = (
+				A051479C1E0BAB4100DD0D74 /* PaySDK */,
+				A05147B61E0BAB4100DD0D74 /* PaySDKTests */,
+				A05147C11E0BAB4100DD0D74 /* PaySDKUITests */,
+				A051479B1E0BAB4100DD0D74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A051479B1E0BAB4100DD0D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A051479A1E0BAB4100DD0D74 /* PaySDK.app */,
+				A05147B31E0BAB4100DD0D74 /* PaySDKTests.xctest */,
+				A05147BE1E0BAB4100DD0D74 /* PaySDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A051479C1E0BAB4100DD0D74 /* PaySDK */ = {
+			isa = PBXGroup;
+			children = (
+				A05147A01E0BAB4100DD0D74 /* AppDelegate.h */,
+				A05147A11E0BAB4100DD0D74 /* AppDelegate.m */,
+				A05147A31E0BAB4100DD0D74 /* ViewController.h */,
+				A05147A41E0BAB4100DD0D74 /* ViewController.m */,
+				A05147A61E0BAB4100DD0D74 /* Main.storyboard */,
+				A05147A91E0BAB4100DD0D74 /* Assets.xcassets */,
+				A05147AB1E0BAB4100DD0D74 /* LaunchScreen.storyboard */,
+				A05147AE1E0BAB4100DD0D74 /* Info.plist */,
+				A051479D1E0BAB4100DD0D74 /* Supporting Files */,
+			);
+			path = PaySDK;
+			sourceTree = "<group>";
+		};
+		A051479D1E0BAB4100DD0D74 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A051479E1E0BAB4100DD0D74 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A05147B61E0BAB4100DD0D74 /* PaySDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				A05147B71E0BAB4100DD0D74 /* PaySDKTests.m */,
+				A05147B91E0BAB4100DD0D74 /* Info.plist */,
+			);
+			path = PaySDKTests;
+			sourceTree = "<group>";
+		};
+		A05147C11E0BAB4100DD0D74 /* PaySDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A05147C21E0BAB4100DD0D74 /* PaySDKUITests.m */,
+				A05147C41E0BAB4100DD0D74 /* Info.plist */,
+			);
+			path = PaySDKUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A05147991E0BAB4100DD0D74 /* PaySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05147C71E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDK" */;
+			buildPhases = (
+				A05147961E0BAB4100DD0D74 /* Sources */,
+				A05147971E0BAB4100DD0D74 /* Frameworks */,
+				A05147981E0BAB4100DD0D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaySDK;
+			productName = PaySDK;
+			productReference = A051479A1E0BAB4100DD0D74 /* PaySDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A05147B21E0BAB4100DD0D74 /* PaySDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05147CA1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKTests" */;
+			buildPhases = (
+				A05147AF1E0BAB4100DD0D74 /* Sources */,
+				A05147B01E0BAB4100DD0D74 /* Frameworks */,
+				A05147B11E0BAB4100DD0D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05147B51E0BAB4100DD0D74 /* PBXTargetDependency */,
+			);
+			name = PaySDKTests;
+			productName = PaySDKTests;
+			productReference = A05147B31E0BAB4100DD0D74 /* PaySDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A05147BD1E0BAB4100DD0D74 /* PaySDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A05147CD1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */;
+			buildPhases = (
+				A05147BA1E0BAB4100DD0D74 /* Sources */,
+				A05147BB1E0BAB4100DD0D74 /* Frameworks */,
+				A05147BC1E0BAB4100DD0D74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A05147C01E0BAB4100DD0D74 /* PBXTargetDependency */,
+			);
+			name = PaySDKUITests;
+			productName = PaySDKUITests;
+			productReference = A05147BE1E0BAB4100DD0D74 /* PaySDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A05147921E0BAB4100DD0D74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = ldd;
+				TargetAttributes = {
+					A05147991E0BAB4100DD0D74 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G4GPP4QM86;
+						ProvisioningStyle = Automatic;
+					};
+					A05147B21E0BAB4100DD0D74 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G4GPP4QM86;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A05147991E0BAB4100DD0D74;
+					};
+					A05147BD1E0BAB4100DD0D74 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = G4GPP4QM86;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A05147991E0BAB4100DD0D74;
+					};
+				};
+			};
+			buildConfigurationList = A05147951E0BAB4100DD0D74 /* Build configuration list for PBXProject "PaySDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A05147911E0BAB4100DD0D74;
+			productRefGroup = A051479B1E0BAB4100DD0D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A05147991E0BAB4100DD0D74 /* PaySDK */,
+				A05147B21E0BAB4100DD0D74 /* PaySDKTests */,
+				A05147BD1E0BAB4100DD0D74 /* PaySDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A05147981E0BAB4100DD0D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05147AD1E0BAB4100DD0D74 /* LaunchScreen.storyboard in Resources */,
+				A05147AA1E0BAB4100DD0D74 /* Assets.xcassets in Resources */,
+				A05147A81E0BAB4100DD0D74 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05147B11E0BAB4100DD0D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05147BC1E0BAB4100DD0D74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A05147961E0BAB4100DD0D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05147A51E0BAB4100DD0D74 /* ViewController.m in Sources */,
+				A05147A21E0BAB4100DD0D74 /* AppDelegate.m in Sources */,
+				A051479F1E0BAB4100DD0D74 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05147AF1E0BAB4100DD0D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05147B81E0BAB4100DD0D74 /* PaySDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A05147BA1E0BAB4100DD0D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A05147C31E0BAB4100DD0D74 /* PaySDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A05147B51E0BAB4100DD0D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05147991E0BAB4100DD0D74 /* PaySDK */;
+			targetProxy = A05147B41E0BAB4100DD0D74 /* PBXContainerItemProxy */;
+		};
+		A05147C01E0BAB4100DD0D74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A05147991E0BAB4100DD0D74 /* PaySDK */;
+			targetProxy = A05147BF1E0BAB4100DD0D74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A05147A61E0BAB4100DD0D74 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05147A71E0BAB4100DD0D74 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A05147AB1E0BAB4100DD0D74 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A05147AC1E0BAB4100DD0D74 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A05147C51E0BAB4100DD0D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A05147C61E0BAB4100DD0D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A05147C81E0BAB4100DD0D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4GPP4QM86;
+				INFOPLIST_FILE = PaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A05147C91E0BAB4100DD0D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G4GPP4QM86;
+				INFOPLIST_FILE = PaySDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A05147CB1E0BAB4100DD0D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G4GPP4QM86;
+				INFOPLIST_FILE = PaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
+			};
+			name = Debug;
+		};
+		A05147CC1E0BAB4100DD0D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = G4GPP4QM86;
+				INFOPLIST_FILE = PaySDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaySDK.app/PaySDK";
+			};
+			name = Release;
+		};
+		A05147CE1E0BAB4100DD0D74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G4GPP4QM86;
+				INFOPLIST_FILE = PaySDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaySDK;
+			};
+			name = Debug;
+		};
+		A05147CF1E0BAB4100DD0D74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = G4GPP4QM86;
+				INFOPLIST_FILE = PaySDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = smallPay.com.PaySDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PaySDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A05147951E0BAB4100DD0D74 /* Build configuration list for PBXProject "PaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05147C51E0BAB4100DD0D74 /* Debug */,
+				A05147C61E0BAB4100DD0D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A05147C71E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05147C81E0BAB4100DD0D74 /* Debug */,
+				A05147C91E0BAB4100DD0D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A05147CA1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05147CB1E0BAB4100DD0D74 /* Debug */,
+				A05147CC1E0BAB4100DD0D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A05147CD1E0BAB4100DD0D74 /* Build configuration list for PBXNativeTarget "PaySDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A05147CE1E0BAB4100DD0D74 /* Debug */,
+				A05147CF1E0BAB4100DD0D74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A05147921E0BAB4100DD0D74 /* Project object */;
+}
